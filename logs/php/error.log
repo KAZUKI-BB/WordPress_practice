@@ -1,0 +1,7 @@
+[10-May-2023 05:40:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function display_latest_posts() in C:\Users\kzhrs\Local Sites\gorin2022again2\app\public\wp-content\themes\blankslate-child\front-page.php:5
+Stack trace:
+#0 C:\Users\kzhrs\Local Sites\gorin2022again2\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\kzhrs\Local Sites\gorin2022again2\app\public\wp-blog-header.php(19): require_once('C:\\Users\\kzhrs\\...')
+#2 C:\Users\kzhrs\Local Sites\gorin2022again2\app\public\index.php(17): require('C:\\Users\\kzhrs\\...')
+#3 {main}
+  thrown in C:\Users\kzhrs\Local Sites\gorin2022again2\app\public\wp-content\themes\blankslate-child\front-page.php on line 5

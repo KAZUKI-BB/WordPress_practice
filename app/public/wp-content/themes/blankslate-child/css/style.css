@@ -1,0 +1,44 @@
+#header{
+    text-align: center;
+    color: red;
+    margin: auto;
+}
+
+#head_img{
+    height: 300px;
+    width: max-content;
+}
+
+#header_nav{
+    text-align: center;
+    margin: 30px;
+}
+
+#header_nav a{
+    justify-content: space-between;
+    align-items: center;
+	text-align: center;
+	text-decoration: none;
+	width: 120px;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	background: rgb(255, 199, 96);
+	color: white;
+	border-radius: 100vh;
+	position: relative;
+	transition: 0.5s;
+}
+
+#front_content{
+    margin: auto;
+    display: flex;
+}
+
+.info_content{
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    margin: 50px;
+    font-weight: bold;
+    border: solid 3px rgb(255, 199, 96);
+}
