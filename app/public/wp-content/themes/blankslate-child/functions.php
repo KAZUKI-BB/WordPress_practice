@@ -90,6 +90,8 @@ function display_third_posts() {
   }
 }
 
+//上記処理は一つにまとめてフロント側に書いてよし
+
 // add_action('init', function () {
 //   register_post_type('news', array(
 //     'labels' => array(
@@ -102,17 +104,17 @@ function display_third_posts() {
 //   ));
 // });
 
-// add_action('init', function () {
-//     register_post_type('booth', array(
-//       'labels' => array(
-//         'name' => '企業ブース',
-//         'singular_name' => '企業ブース',
-//       ),
-//       'public' => true,
-//       'has_archive' => true,
-//       'show_in_rest' => true,
-//     ));
-//   });
+add_action('init', function () {
+    register_post_type('booth', array(
+      'labels' => array(
+        'name' => '企業ブース',
+        'singular_name' => '企業ブース',
+      ),
+      'public' => true,
+      'has_archive' => true,
+      'show_in_rest' => true,
+    ));
+  });
 
 //   add_action('init', function () {
 //     register_post_type('information', array(
